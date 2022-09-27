@@ -1,0 +1,21 @@
+
+
+    Pour cloner un repository, utiliser la commande git clone copier 
+    l'adresse du repository sur github:
+
+        Taper sur le terminal : git clone <url du repository>
+     
+     Après avoir cloner,il faut créer des fichiers dans le repository
+     sur le terminal:
+                touch test   ou nano test
+
+     Pour push, il y a trois commandes:
+         git add --all
+         git commit
+         git push origin master
+
+    Après avoir push, on nous demande le username de github et le mot de
+    passe.Pour le mot de passe,il faut créer un token sur github 
+    (Settings (dans l'icône en forme de globe)/Developpers settings/
+     Personnal Access Token(PAT)/Choisir les options du repo) puis copier
+     le mot de passe du token crée et le mettre sur le terminal.
