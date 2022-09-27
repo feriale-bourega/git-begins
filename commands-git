@@ -19,3 +19,12 @@
     (Settings (dans l'icône en forme de globe)/Developpers settings/
      Personnal Access Token(PAT)/Choisir les options du repo) puis copier
      le mot de passe du token crée et le mettre sur le terminal.
+
+   Pour récupérer en local les dernières modifications du repository Github, il faut utiliser la commande :
+         git pull origin master
+         
+  Lorsque l’on réalise un git pull on effectue un fetch puis un merge. Dans nos conditions de travail, 
+  il est préférable de réaliser un rebase pour que cela soit automatique il faut taper la commande suivante:
+      git config --global branch.master.rebase true
+            
+    
